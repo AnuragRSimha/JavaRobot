@@ -13,7 +13,7 @@
                 b) Overwrite the coordinates in POINT B to the location of (WhatsApp web's) the message box (this can be noted 
                 from the "coordinates" chrome extension).
                 c) Similarly make the changes in POINT C to the coordinates of the "Send Message" arrow button in WhatsApp.
-            5) Run the program and have a cuppa.
+            5) Run the program, and have a cuppa.
     Optional (Perilous choice): To spam your recipient, you might want to change the loop variable 'i' to send the same message 
     more than a tenfold. 
 */
