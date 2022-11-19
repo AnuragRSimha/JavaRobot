@@ -1,4 +1,4 @@
-# Java Robot
+# Java WhatsApp Web Bot
 Program developed by Anurag R Simha.
 # Description
 This is a simple java robot program designed to send an automated message to a recipient over WhatsApp.
