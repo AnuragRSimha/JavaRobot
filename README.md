@@ -10,7 +10,7 @@ Follow these steps to automate the process on your computer.
 4. To capture the respective coordinates, the file, coords.java is a helping hand.\
     a) Run the program.\
     b) Move your mouse cursor to the location you desire.\
-    c) Note down the coordinates displayed.\
+    c) Note down the coordinates displayed.
 5. In the program, make the following amendments:\
     a) Change POINT A to the coordinates of your browser's location on the taskbar.\
     b) Overwrite the coordinates in POINT B to the location of (WhatsApp web's) the message box (this can be noted from the "coordinates" chrome extension).\
