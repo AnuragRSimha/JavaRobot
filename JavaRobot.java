@@ -15,7 +15,7 @@
                 b) Overwrite the coordinates in POINT B to the location of (WhatsApp web's) the message box (this can be noted 
                 from the "coordinates" chrome extension).
                 c) Similarly make the changes in POINT C to the coordinates of the "Send Message" arrow button in WhatsApp.
-            5) Run the program, and have a cuppa.
+            5) Run the program and have a cuppa.
     Optional (Perilous choice): To spam your recipient, you might want to change the loop variable 'i' to send the same message 
     more than a tenfold. 
 */
@@ -56,13 +56,21 @@ public class JavaRobot {
             message2 = message + msg_ctr + ".";
 
             for (int k = 0; k < message2.length(); k++) {
-                int keyCode = KeyEvent.getExtendedKeyCodeForChar(message2.charAt(k));
-                if (Character.isUpperCase(message2.charAt(k))) {
+                int keyCode = 0;
+                if (message2.charAt(k) != '?') {
+                    keyCode = KeyEvent.getExtendedKeyCodeForChar(message2.charAt(k));
+                    if (Character.isUpperCase(message2.charAt(k))) {
+                        r.keyPress(KeyEvent.VK_SHIFT);
+                    }
+                    r.keyPress(keyCode);
+                    r.keyRelease(keyCode);
+                    if (Character.isUpperCase(message2.charAt(k))) {
+                        r.keyRelease(KeyEvent.VK_SHIFT);
+                    }
+                } else if (message2.charAt(k) == '?') {
                     r.keyPress(KeyEvent.VK_SHIFT);
-                }
-                r.keyPress(keyCode);
-                r.keyRelease(keyCode);
-                if (Character.isUpperCase(message2.charAt(k))) {
+                    r.keyPress(KeyEvent.VK_SLASH);
+                    r.keyRelease(KeyEvent.VK_SLASH);
                     r.keyRelease(KeyEvent.VK_SHIFT);
                 }
             }
