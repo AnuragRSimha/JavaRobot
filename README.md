@@ -17,4 +17,4 @@ Follow these steps to automate the process on your computer.
     c) Similarly make the changes in POINT C to the coordinates of the "Send Message" arrow button in WhatsApp.
 6. Run the program, and have a cuppa.
 # Optional (Perilous choice)
-To spam your recipient, you might want to change the loop variable 'i' to send the same message more than a tenfold. 
+To spam your recipient, you might want to change the value of loop variable 'i' to send the same message more than a tenfold. 
