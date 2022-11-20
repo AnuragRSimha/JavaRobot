@@ -7,7 +7,10 @@ Follow these steps to automate the process on your computer.
 1. Open any browser (Google Chrome for example) with WhatsApp Web ready.
 2. Pin the browser to your taskbar.
 3. Click on a contact you desire to send the message to.
-4. If you are a chrome user, download the extension called "coordinates" to track the points. (URL: https://chrome.google.com/webstore/detail/coordinates/bpflbjmbfccblbhlcmlgkajdpoiepmkd)
+4. To capture the respective coordinates, the file, coords.java is a helping hand.\
+    a) Run the program.\
+    b) Move your mouse cursor to the location you desire.\
+    c) Note down the coordinates displayed.\
 5. In the program, make the following amendments:\
     a) Change POINT A to the coordinates of your browser's location on the taskbar.\
     b) Overwrite the coordinates in POINT B to the location of (WhatsApp web's) the message box (this can be noted from the "coordinates" chrome extension).\
